@@ -12,8 +12,8 @@ request(url, (err, res, body) => {
       const characters = results[i].characters;
       characters.forEach((id) => {
         if (id.endsWith('/18/')) count++;
-      })
+      });
     }
     console.log(count);
   }
-})
+});
