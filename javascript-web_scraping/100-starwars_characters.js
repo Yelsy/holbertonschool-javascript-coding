@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const request = require('request');
 
 const movieId = process.argv[2]; // Get the Movie ID from the command line argument
